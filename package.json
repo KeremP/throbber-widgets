@@ -38,6 +38,33 @@
     "tsup": "^8.0.0",
     "typescript": "^5.7.0"
   },
-  "keywords": ["react", "spinner", "throbber", "loading", "unicode", "braille", "animation"],
-  "license": "MIT"
+  "keywords": [
+    "react",
+    "spinner",
+    "throbber",
+    "loading",
+    "loader",
+    "progress",
+    "indicator",
+    "unicode",
+    "braille",
+    "animation",
+    "cli",
+    "terminal",
+    "ink",
+    "tui",
+    "async",
+    "suspense",
+    "component"
+  ],
+  "license": "MIT",
+  "author": "Kyle J Ryan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejryan/throbber-widgets.git"
+  },
+  "homepage": "https://github.com/kylejryan/throbber-widgets#readme",
+  "bugs": {
+    "url": "https://github.com/kylejryan/throbber-widgets/issues"
+  }
 }
