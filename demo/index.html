@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>throbber-widgets demo</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: #0a0a0a;
+        color: #e0e0e0;
+        font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+        padding: 2rem;
+      }
+      h1 { font-size: 1.4rem; margin-bottom: 1.5rem; color: #10b981; }
+      h2 { font-size: 0.9rem; margin: 1.5rem 0 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 0.5rem;
+      }
+      .card {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 0.8rem;
+        background: #141414;
+        border: 1px solid #222;
+        border-radius: 6px;
+        font-size: 0.85rem;
+      }
+      .card .spinner { font-size: 1.1rem; width: 1.2em; text-align: center; }
+      .card .name { color: #888; }
+      .controls {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        font-size: 0.85rem;
+      }
+      .controls label { display: flex; align-items: center; gap: 0.4rem; color: #888; }
+      .controls input[type="range"] { width: 120px; }
+      .controls input[type="checkbox"] { accent-color: #10b981; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
