@@ -13,5 +13,5 @@ export { createThrobber } from './createThrobber';
 // Raw frame arrays (framework-agnostic — use anywhere)
 export * from './frames';
 
-// All 47 throbber components
+// All 65 throbber components
 export * from './throbbers';

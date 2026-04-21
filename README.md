@@ -167,6 +167,31 @@ The `useThrobber` hook works in any React environment (web or Ink). The `Throbbe
 | `OghamC` | `  ᚆ ᚇ ᚈ ᚉ ᚊ` | ᚆᚇᚈᚉᚊ |
 | `Parenthesis` | `⎛ ⎜ ⎝ ⎞ ⎟ ⎠` | ⎛⎜⎝⎞⎟⎠ |
 
+### Braille Grid Spinners
+
+Multi-cell braille animations. Frames are pre-computed from the grid generators in [gunnargray-dev/unicode-animations](https://github.com/gunnargray-dev/unicode-animations).
+
+| Component | Cells | Frames |
+|-----------|-------|--------|
+| `Braille` | 1 | 10 — classic rotating braille cycle |
+| `BrailleWave` | 4 | 8 — single dot surfing across cells |
+| `Dna` | 4 | 12 — double-strand slide |
+| `Orbit` | 1 | 8 — two-dot orbit around a 2×4 cell |
+| `Breathe` | 1 | 17 — fill / empty cycle |
+| `Snake` | 2 | 16 — snake tracing a path |
+| `FillSweep` | 2 | 11 — vertical fill pulse |
+| `Pulse` | 3 | 5 — expanding ring |
+| `Columns` | 3 | 26 — columns filling in sequence |
+| `Checkerboard` | 3 | 4 — alternating check pattern |
+| `Scan` | 4 | 10 — scanning bar |
+| `ScanLine` | 3 | 6 — horizontal scan line |
+| `Rain` | 4 | 12 — falling rain dots |
+| `Cascade` | 4 | 14 — diagonal cascade |
+| `Sparkle` | 4 | 6 — random sparkle pattern |
+| `WaveRows` | 4 | 16 — sinusoidal wave |
+| `Helix` | 4 | 16 — two-strand helix |
+| `DiagonalSwipe` | 2 | 16 — diagonal fill / empty |
+
 ## Frame Constants
 
 Every throbber's frame array is also exported as a `SCREAMING_SNAKE_CASE` constant:
@@ -174,7 +199,7 @@ Every throbber's frame array is also exported as a `SCREAMING_SNAKE_CASE` consta
 ```ts
 import {
   ARROW, ASCII, BRAILLE_WORM, FALLING_SAND, SHADE,
-  // ... 47 total
+  // ... 65 total
 } from 'throbber-widgets';
 ```
 

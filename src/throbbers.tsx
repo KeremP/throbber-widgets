@@ -61,3 +61,23 @@ export const OghamA = /*#__PURE__*/ createThrobber('OghamA', f.OGHAM_A);
 export const OghamB = /*#__PURE__*/ createThrobber('OghamB', f.OGHAM_B);
 export const OghamC = /*#__PURE__*/ createThrobber('OghamC', f.OGHAM_C);
 export const Parenthesis = /*#__PURE__*/ createThrobber('Parenthesis', f.PARENTHESIS);
+
+// Braille grid spinners
+export const Braille = /*#__PURE__*/ createThrobber('Braille', f.BRAILLE);
+export const BrailleWave = /*#__PURE__*/ createThrobber('BrailleWave', f.BRAILLE_WAVE);
+export const Dna = /*#__PURE__*/ createThrobber('Dna', f.DNA);
+export const Scan = /*#__PURE__*/ createThrobber('Scan', f.SCAN);
+export const Rain = /*#__PURE__*/ createThrobber('Rain', f.RAIN);
+export const ScanLine = /*#__PURE__*/ createThrobber('ScanLine', f.SCAN_LINE);
+export const Pulse = /*#__PURE__*/ createThrobber('Pulse', f.PULSE);
+export const Snake = /*#__PURE__*/ createThrobber('Snake', f.SNAKE);
+export const Sparkle = /*#__PURE__*/ createThrobber('Sparkle', f.SPARKLE);
+export const Cascade = /*#__PURE__*/ createThrobber('Cascade', f.CASCADE);
+export const Columns = /*#__PURE__*/ createThrobber('Columns', f.COLUMNS);
+export const Orbit = /*#__PURE__*/ createThrobber('Orbit', f.ORBIT);
+export const Breathe = /*#__PURE__*/ createThrobber('Breathe', f.BREATHE);
+export const WaveRows = /*#__PURE__*/ createThrobber('WaveRows', f.WAVE_ROWS);
+export const Checkerboard = /*#__PURE__*/ createThrobber('Checkerboard', f.CHECKERBOARD);
+export const Helix = /*#__PURE__*/ createThrobber('Helix', f.HELIX);
+export const FillSweep = /*#__PURE__*/ createThrobber('FillSweep', f.FILL_SWEEP);
+export const DiagonalSwipe = /*#__PURE__*/ createThrobber('DiagonalSwipe', f.DIAGONAL_SWIPE);
